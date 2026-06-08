@@ -64,12 +64,12 @@ if [[ $splash == true ]]; then
 		if [[ $splashname == "all" ]]; then
 			wget "$GH_REPOSITORY/raw/master/splash/default.png" -O libbie_icons/splash/default.png -q
 			wget "$GH_REPOSITORY/raw/master/splash/libbie_blue.png" -O libbie_icons/splash/libbie_blue.png -q
-			wget "$GH_REPOSITORY/raw/master/splash/libbie_no8ch.png" - O libbie_icons/splash/libbie_no8ch.png -q
-			wget "$GH_REPOSITORY/raw/master/splash/libbie_blue_no8ch.png" - O libbie_icons/splash/libbie_blue_no8ch.png -q
-			wget "$GH_REPOSITORY/raw/master/splash/libbie_o7.png" - O libbie_icons/splash/libbie_o7.png -q
-			wget "$GH_REPOSITORY/raw/master/splash/libbie-highres_o7.png" - O libbie_icons/splash/libbie-highres_o7.png -q
-			wget "$GH_REPOSITORY/raw/master/splash/libre.png" - O libbie_icons/splash/libre.png -q
-			wget "$GH_REPOSITORY/raw/master/splash/libre_alt.png" - O libbie_icons/splash/libre_alt.png -q
+			wget "$GH_REPOSITORY/raw/master/splash/libbie_no8ch.png" -O libbie_icons/splash/libbie_no8ch.png -q
+			wget "$GH_REPOSITORY/raw/master/splash/libbie_blue_no8ch.png" -O libbie_icons/splash/libbie_blue_no8ch.png -q
+			wget "$GH_REPOSITORY/raw/master/splash/libbie_o7.png" -O libbie_icons/splash/libbie_o7.png -q
+			wget "$GH_REPOSITORY/raw/master/splash/libbie-highres_o7.png" -O libbie_icons/splash/libbie-highres_o7.png -q
+			wget "$GH_REPOSITORY/raw/master/splash/libre.png" -O libbie_icons/splash/libre.png -q
+			wget "$GH_REPOSITORY/raw/master/splash/libre_alt.png" -O libbie_icons/splash/libre_alt.png -q
 			cp libbie_icons/splash/default.png $LIBREOFFICE_PROGRAM_DIR/libreoffice/program/intro.png
 		else
 			echo $splashname
