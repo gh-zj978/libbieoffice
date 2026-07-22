@@ -92,7 +92,7 @@ fi
 
 if [[ $icons == true ]]; then
 	if [[ $local != true ]]; then
-		mkdir libbie_icons mkdir libbie_icons/HighContrast
+		mkdir libbie_icons libbie_icons/HighContrast
 		cd libbie_icons
 		printf "Downloading icons...\n"
 		wget "$GH_REPOSITORY/raw/master/libreoffice-base.png" -q;printf "1/7.. \r"
